@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Jeśli używasz tego oprogramowania, proszę zacytuj poniższy wpis."
+title: "IVB: Multimodal Adaptive Model with Hierarchical Perceptive Memory and Adaptive Conditional Path"
+authors:
+  - family-names: Bakun
+    given-names: Mieczysław
+    orcid: "https://orcid.org/0009-0007-5679-446X"
+    affiliation: "IVB Research Institute"
+date-released: 2025-06-20
+doi: 10.5281/zenodo.15707361
+license: CC-BY-4.0
+repository-code: "https://doi.org/10.5281/zenodo.15707361"
+version: "1.0.0"
+keywords:
+  - AI
+  - adaptive inference
+  - HPA
+  - ACP
+  - multimodal models
+  - energy optimization
