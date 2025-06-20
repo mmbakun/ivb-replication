@@ -11,21 +11,28 @@ IVB is an adaptive, multimodal AI architecture designed for efficient inference 
 
 ## 📁 Repository Contents
 
-- `hpa_module.py` — Minimal implementation of the HPA memory structure.
-- `acp_module.py` — Implementation of the Adaptive Conditional Path algorithm.
-- `benchmark.py` — Scripts to test inference time and energy-related behavior.
-- `README.md` — This file.
-- `CITATION.cff` — Citation metadata file.
+```
+ivb-replication/
+├── hpa/
+│   └── hpa_core.py           # Minimal implementation of the HPA memory structure
+├── acp/
+│   └── acp_predictor.py      # Implementation of the Adaptive Conditional Path algorithm
+├── benchmarks/
+│   ├── mm_qa40.py            # Benchmark for multimodal question answering
+│   └── energy_edge.py        # Benchmark for energy-related evaluation
+├── models/                   # Directory for model weights (optional)
+├── run_experiments.sh        # Script to run benchmark experiments
+├── README.md                 # This file
+├── CITATION.cff              # Citation metadata file
+```
 
 ## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/your-org/ivb-replication.git
 cd ivb-replication
-python benchmark.py
+bash run_experiments.sh
 ```
-
-The scripts simulate task inference and demonstrate conditional activation of memory/computation layers.
 
 ## 📚 Citation
 
@@ -43,7 +50,7 @@ This replication code is shared under the **Creative Commons Attribution 4.0 Int
 
 ## ✉ Contact
 
-If you are interested in commercial licensing or further collaboration, please contact:
+For commercial licensing or further collaboration:
 
-**📧** bakun@ivb-research.edu.pl  
+**📧** license@ivb-research.edu.pl  
 **🌐** https://ivb-research.edu.pl
