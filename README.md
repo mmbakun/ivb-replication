@@ -52,5 +52,5 @@ This replication code is shared under the **Creative Commons Attribution 4.0 Int
 
 For commercial licensing or further collaboration:
 
-**📧** license@ivb-research.edu.pl  
+**📧** bakun@ivb-research.edu.pl  
 **🌐** https://ivb-research.edu.pl
